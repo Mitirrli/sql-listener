@@ -1,0 +1,24 @@
+{
+    "name": "mitirrli/sql-listener",
+    "description": "Log sql in the specified environment.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mitirrli",
+            "email": "phper.blue@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mitirrli\\SqlListener\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mitirrli\\SqlListener\\Providers\\Service"
+            ]
+        }
+    }
+}
